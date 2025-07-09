@@ -39,3 +39,32 @@ console.log(StringNumber); // "33"
 let someString = true;
 let BooleanString = String(someString); // "true"
 console.log(BooleanString); // "true"
+
+
+// **************OPerations ****************
+
+let value = 3
+let negValue = -value;
+console.log(negValue); // -3
+
+let str1 = "hello";
+let str2 = "world";
+let str3 = str1 + " " + str2;
+console.log(str3); // "hello world"
+
+console.log(str1 + 3); // "hello3" (string concatenation)
+console.log(3 + str1); // "3hello" (string concatenation)   
+console.log(str1 + 3 + 4); // "hello34" (string concatenation)
+console.log(3 + 4 + str1); // "7hello" (number addition and string concatenation)
+
+console.log(+true); // 1 (boolean to number)
+console.log(+false); // 0 (boolean to number)
+console.log(+null); // 0 (null to number)
+console.log(+undefined); // NaN (undefined to number)
+console.log(+str1); // NaN (string to number, not a valid number)       
+console.log(+""); // 0 (empty string to number)
+
+//+ converts the value to a number
+
+let num1 = num2 = num3 = 10;
+console.log(num1, num2, num3); // 10 10 10
