@@ -21,3 +21,14 @@ const user = {
 }
 
 const heroes = ["Batman", "Superman", "Wonderwoman"]; // array is a special type of object in JavaScript
+
+//**********************************************         */
+
+//stack (Primitive data types), Heap (Non-primitive data types)
+
+
+let myYoutubeName = "chain of thought"; // string is a primitive data type
+let anothername = myYoutubeName;
+anothername = "Hitesh Choudhary"; // this will not change the original value of myYoutubeName
+console.log(myYoutubeName); // "chain of thought"   
+console.log(anothername); // "Hitesh Choudhary"
